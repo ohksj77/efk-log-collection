@@ -11,5 +11,11 @@ efk로 백엔드 서버의 로그를 수집해보자
   - springboot server
     - 로깅을 수행하는 하나의 api를 갖는 서버를 실습을 위해 한대만 실행한다.
 
+## 실행
+- k8s 실행 이후
+```
+sh ./run.sh
+```
+
 ## 결과
 ![](https://github.com/ohksj77/efk-log-collection/assets/89020004/fbc3f11d-0887-4a4e-ae9d-8150c7a5aa77)
