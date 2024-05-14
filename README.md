@@ -7,7 +7,9 @@ efk로 백엔드 서버의 로그를 수집해보자
 
 ## 아키텍처
 - k8s
-  - efk
+  - elasticsearch
+  - fluentd
+  - kibana
   - springboot server
     - 로깅을 수행하는 하나의 api를 갖는 서버를 실습을 위해 한대만 실행한다.
 
